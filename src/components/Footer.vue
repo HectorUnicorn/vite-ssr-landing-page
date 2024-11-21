@@ -5,7 +5,7 @@
         <div flex="~ col" pl-4>
           <div font-bold text-lg>产品</div>
           <a href="https://m.lifepage.cc/register" target="_blank" mt-4>注册</a>
-          <a href="https://doc.lifepage.cc/product/wechat" target="_blank" mt-4
+          <a href="https://doc.lifepage.cc/product/wechat.html" target="_blank" mt-4
             >微信公众号</a
           >
         </div>
