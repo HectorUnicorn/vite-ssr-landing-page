@@ -34,18 +34,6 @@ if (!isProduction) {
   app.use(base, sirv("./dist/client", { extensions: [] }));
 }
 
-// 处理以 _baidu 开头的请求
-app.use(/^\/_baidu/, (req, res) => {
-  const specifiedString = "b0c4db187467a650cc8129e5db32e340";
-  res.set({
-    "Content-Type": "text/plain",
-    "Cache-Control": "no-cache, no-store, must-revalidate",
-    Pragma: "no-cache",
-    Expires: "0",
-  });
-  res.status(200).send(specifiedString);
-});
-
 // Serve HTML
 app.use("*all", async (req, res) => {
   try {
@@ -69,14 +57,18 @@ app.use("*all", async (req, res) => {
       .replace(`<!--app-head-->`, rendered.head ?? "")
       .replace(`<!--app-html-->`, rendered.html ?? "");
     // 设置 Cache-Control 头，确保浏览器每次都从服务器获取最新的内容
+
     res.set({
       "Content-Type": "text/html",
       "Cache-Control": "no-cache, no-store, must-revalidate",
       Pragma: "no-cache",
       Expires: "0",
     });
-
-    res.status(200).set({ "Content-Type": "text/html" }).send(html);
+    if (url.indexOf('baidu_verify_code') !== -1) {
+      res.status(200).set({ "Content-Type": "text/plain" }).send('b0c4db187467a650cc8129e5db32e340');
+    } else {
+      res.status(200).set({ "Content-Type": "text/html" }).send(html);
+    }
   } catch (e) {
     vite?.ssrFixStacktrace(e);
     console.log(e.stack);
