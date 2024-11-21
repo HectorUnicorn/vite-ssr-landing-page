@@ -56,6 +56,13 @@ app.use('*all', async (req, res) => {
     const html = template
       .replace(`<!--app-head-->`, rendered.head ?? '')
       .replace(`<!--app-html-->`, rendered.html ?? '')
+    // 设置 Cache-Control 头，确保浏览器每次都从服务器获取最新的内容
+    res.set({
+      'Content-Type': 'text/html',
+      'Cache-Control': 'no-cache, no-store, must-revalidate',
+      'Pragma': 'no-cache',
+      'Expires': '0'
+    })
 
     res.status(200).set({ 'Content-Type': 'text/html' }).send(html)
   } catch (e) {
