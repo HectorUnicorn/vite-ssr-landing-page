@@ -4,8 +4,51 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="./src/assets/logo_svg.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>人生一页</title>
-    <!--app-head-->
+    <title>人生一页 | 纪念亲友网站</title>
+    <meta name="description" content="这是一个纯粹的纪念亲人的网站，为您保留亲人资料，留下一份珍贵的回忆。">
+    <meta name="keywords" content="纪念网站, 人生一页，亲友纪念, 生平故事, 纪念文章, 添加相册, 分享故事, 社交互动, 亲友共同纪念，微信分享，纪念日提醒">
+
+    <!-- Structured Data (Schema.org) -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://lifepage.cc",
+        "@type": "WebSite",
+        "name": "人生一页",
+        "url": "https://lifepage.cc/",
+        "description": "这是一个纯粹的纪念亲人的网站，为您保留亲人资料，留下一份珍贵的回忆。",
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": "https://lifepage.cc/login?q={search_term_string}",
+          "query-input": "required name=search_term_string"
+        }
+      }
+      </script>
+  
+      <!-- Open Graph Tags -->
+      <meta property="og:type" content="website">
+      <meta property="og:url" content="https://lifepage.cc/">
+      <meta property="og:title" content="人生一页 | 纪念亲友网站">
+      <meta property="og:description" content="这是一个纯粹的纪念亲人的网站，为您保留亲人资料，留下一份珍贵的回忆。">
+      <meta property="og:image" content="https://lp-file.lifepage.cc/img/logo_svg.svg">
+  
+      <!-- Twitter Card Tags -->
+      <meta name="twitter:card" content="summary_large_image">
+      <meta name="twitter:url" content="https://lifepage.cc/">
+      <meta name="twitter:title" content="人生一页 | 纪念亲友网站">
+      <meta name="twitter:description" content="这是一个纯粹的纪念亲人的网站，为您保留亲人资料，留下一份珍贵的回忆。">
+      <meta name="twitter:image" content="https://lp-file.lifepage.cc/img/logo_svg.svg">
+  
+      <!-- Canonical URL -->
+      <link rel="canonical" href="https://lifepage.cc/">
+  
+      <!-- App Name for Mobile Browsers -->
+      <meta name="apple-mobile-web-app-title" content="人生一页">
+      <meta name="application-name" content="人生一页">
+  
+      <!-- Other SEO Enhancements -->
+      <link rel="amphtml" href="https://lifepage.cc/amp/">
+      <link rel="alternate" hreflang="zh-CN" href="https://lifepage.cc/zh-CN/">
+  <!--app-head-->
   </head>
   <body>
     <div id="app" :class="width: '100%'"><!--app-html--></div>

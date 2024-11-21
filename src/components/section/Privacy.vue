@@ -5,9 +5,9 @@
         <h2 w-full text-center text-4xl font-bold pb-10 text-gray-800>
           您的隐私您做主
         </h2>
-        <p text-base mt-4 text-gray-500 leading-7>
+        <h3 text-base mt-4 text-gray-500 leading-7>
           您创建的纪念网站默认私有，分享给谁可以完全控制；我们不贩卖隐私
-        </p>
+        </h3>
       </div>
       <div grid grid-cols-1 gap-10 gap-5 md:grid-cols-2 mt-14 mb-3>
         <div shadow-light p-5 rounded-2xl flex="~ row" bg-white>

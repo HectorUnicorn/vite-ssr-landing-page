@@ -63,7 +63,7 @@ onUnmounted(() => {
     <div w-full max-w-screen-lg h-20 relative>
       <div flex="~ row" items-center absolute left-4 h-10 top-5>
         <img src="../assets/logo_svg.svg" w-8 h-8 />
-        <div text-2xl text-gray-800 font-bold ml-1>人生一页</div>
+        <h1 text-2xl text-gray-800 font-bold ml-1>人生一页</h1>
       </div>
       <div
         v-if="windowWidth >= 768"

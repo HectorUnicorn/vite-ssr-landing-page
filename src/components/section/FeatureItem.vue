@@ -3,8 +3,8 @@
     <div flex="~ col" items-center md:items-start mb-6>
       <div class="hidden md:block" mb-3><slot></slot></div>
       <h3 text-3xl text-gray-600 font-bold flex="~ col" items-center md:items-start>
-        <span>{{ title }}</span>
-        <span mt-0.6>{{ subtitle }}</span>
+        <h3>{{ title }}</h3>
+        <h4 mt-0.6>{{ subtitle }}</h4>
       </h3>
     </div>
     <img class="w-11/12 md:w-8/12" :src="src" rounded-2xl overflow-hidden/>
