@@ -1,0 +1,34 @@
+<template>
+  <div id="feature" w-full flex="~ row" items-center justify-center py-10>
+    <div w-full max-w-screen-lg flex="~ row" items-center justify-between>
+      <div w-full flex="~ col" items-center>
+        <div pt-10>
+          <h2 w-full text-center text-4xl font-bold pb-10 text-gray-800>永恒的纪念</h2>
+            <FeatureItem title="纪念文章" subtitle="记录精彩人生" src="https://lp-file.lifepage.cc/img/feature1-1.png">
+              <svg xmlns="http://www.w3.org/2000/svg" width="3rem" height="3rem" viewBox="0 0 24 24"><path fill="#F6B7A5" d="M13.03 10c-.122 0-.255 0-.37.01c-.13.01-.3.036-.478.126a1.25 1.25 0 0 0-.546.547c-.09.176-.116.348-.127.478c-.01.114-.009.247-.009.369v1.19c0 .122 0 .255.01.37c.01.13.036.3.126.478c.12.235.311.426.547.546c.176.09.348.116.478.127c.114.01.247.009.369.009h1.94c.122 0 .255 0 .37-.01c.13-.01.3-.036.478-.126a1.25 1.25 0 0 0 .546-.546c.09-.177.116-.349.127-.479c.01-.114.009-.247.009-.369v-1.19c0-.122 0-.255-.01-.37a1.3 1.3 0 0 0-.126-.478a1.25 1.25 0 0 0-.546-.546a1.3 1.3 0 0 0-.479-.127A5 5 0 0 0 14.97 10zm-4.78.25a.75.75 0 0 0 0 1.5h1.5a.75.75 0 0 0 0-1.5zm0 2.25a.75.75 0 0 0 0 1.5h1.5a.75.75 0 0 0 0-1.5zm0 2.75a.75.75 0 0 0 0 1.5h7.5a.75.75 0 0 0 0-1.5zm0 2.5a.75.75 0 0 0 0 1.5h7.5a.75.75 0 0 0 0-1.5z" opacity="0.5"/><path fill="#F6B7A5" d="M17.83 2.25H6.17c-.535 0-.98 0-1.345.03c-.38.03-.736.098-1.073.27A2.75 2.75 0 0 0 2.55 3.752c-.172.337-.24.693-.27 1.073c-.03.365-.03.81-.03 1.345V21a.75.75 0 0 0 1.5 0V6.2c0-.572 0-.957.025-1.253c.023-.287.065-.424.111-.514a1.25 1.25 0 0 1 .547-.547c.09-.046.227-.088.514-.111c.296-.024.68-.025 1.253-.025h11.6c.572 0 .957 0 1.252.025c.288.023.425.065.515.111c.236.12.427.311.547.547c.046.09.088.227.111.514c.024.296.025.68.025 1.253V21a.75.75 0 0 0 1.5 0V6.17c0-.535 0-.98-.03-1.345c-.03-.38-.098-.736-.27-1.073a2.75 2.75 0 0 0-1.2-1.202c-.338-.172-.694-.24-1.074-.27c-.365-.03-.81-.03-1.345-.03"/><path fill="#F6B7A5" d="M7.5 6.5a1 1 0 0 0 0 2h9a1 1 0 1 0 0-2z"/></svg>
+            </FeatureItem>
+            <FeatureItem title="生前影像" subtitle="留住难忘瞬间" src="https://lp-file.lifepage.cc/img/feature1-2.png">
+              <svg xmlns="http://www.w3.org/2000/svg" width="3rem" height="3rem" viewBox="0 0 24 24"><g fill="none"><path d="m12.593 23.258l-.011.002l-.071.035l-.02.004l-.014-.004l-.071-.035q-.016-.005-.024.005l-.004.01l-.017.428l.005.02l.01.013l.104.074l.015.004l.012-.004l.104-.074l.012-.016l.004-.017l-.017-.427q-.004-.016-.017-.018m.265-.113l-.013.002l-.185.093l-.01.01l-.003.011l.018.43l.005.012l.008.007l.201.093q.019.005.029-.008l.004-.014l-.034-.614q-.005-.018-.02-.022m-.715.002a.02.02 0 0 0-.027.006l-.006.014l-.034.614q.001.018.017.024l.015-.002l.201-.093l.01-.008l.004-.011l.017-.43l-.003-.012l-.01-.01z"/><path fill="#F6B7A5" d="M20 6a2 2 0 0 1 2 2v11.333a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2zm-8.268 7.944L7.136 18.54l-.066.06l-.07.054v.68h13v-.68l-.07-.053l-.066-.06l-2.24-2.24l-.353.354l.055.055a1 1 0 0 1-1.32 1.497l-.094-.083zM17 3a2 2 0 0 1 1.995 1.85L19 5H5a1 1 0 0 0-.993.883L4 6v12a2 2 0 0 1-1.995-1.85L2 16V6a3 3 0 0 1 2.824-2.995L5 3zm3 5H7v7.848L10.848 12a1.25 1.25 0 0 1 1.768 0l3.241 3.24l.884-.883a1.25 1.25 0 0 1 1.768 0L20 15.848zm-3.5 1.5a1.5 1.5 0 1 1 0 3a1.5 1.5 0 0 1 0-3"/></g></svg>
+            </FeatureItem>
+            <!-- <FeatureItem title="分享记忆" subtitle="让爱永驻心田" src="https://lp-file.lifepage.cc/img/feature1-3.png">
+              <svg xmlns="http://www.w3.org/2000/svg" width="3rem" height="3rem" viewBox="0 0 24 24"><path fill="none" stroke="#F6B7A5" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2c-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/></svg>
+            </FeatureItem> -->
+          <!-- <h2 w-full text-center text-4xl font-bold py-10 text-gray-800>心灵的链接</h2> -->
+          <FeatureItem title="专属主题" subtitle="营造独特氛围" src="https://lp-file.lifepage.cc/img/feature2-1.png">
+            <svg xmlns="http://www.w3.org/2000/svg" width="3rem" height="3rem" viewBox="0 0 24 24"><path fill="#F6B7A5" d="M12 22C6.49 22 2 17.51 2 12S6.49 2 12 2s10 4.04 10 9c0 3.31-2.69 6-6 6h-1.77c-.28 0-.5.22-.5.5c0 .12.05.23.13.33c.41.47.64 1.06.64 1.67A2.5 2.5 0 0 1 12 22m0-18c-4.41 0-8 3.59-8 8s3.59 8 8 8c.28 0 .5-.22.5-.5a.54.54 0 0 0-.14-.35c-.41-.46-.63-1.05-.63-1.65a2.5 2.5 0 0 1 2.5-2.5H16c2.21 0 4-1.79 4-4c0-3.86-3.59-7-8-7"/><circle cx="6.5" cy="11.5" r="1.5" fill="#F6B7A5"/><circle cx="9.5" cy="7.5" r="1.5" fill="#F6B7A5"/><circle cx="14.5" cy="7.5" r="1.5" fill="#F6B7A5"/><circle cx="17.5" cy="11.5" r="1.5" fill="#F6B7A5"/></svg>
+          </FeatureItem>
+          <FeatureItem title="纪念协作" subtitle="让更多爱凝聚" src="https://lp-file.lifepage.cc/img/feature2-3.png">
+            <svg xmlns="http://www.w3.org/2000/svg" width="3rem" height="3rem" viewBox="0 0 512 512"><path fill="none" stroke="#F6B7A5" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" d="M402 168c-2.93 40.67-33.1 72-66 72s-63.12-31.32-66-72c-3-42.31 26.37-72 66-72s69 30.46 66 72"/><path fill="none" stroke="#F6B7A5" stroke-miterlimit="10" stroke-width="32" d="M336 304c-65.17 0-127.84 32.37-143.54 95.41c-2.08 8.34 3.15 16.59 11.72 16.59h263.65c8.57 0 13.77-8.25 11.72-16.59C463.85 335.36 401.18 304 336 304Z"/><path fill="none" stroke="#F6B7A5" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" d="M200 185.94c-2.34 32.48-26.72 58.06-53 58.06s-50.7-25.57-53-58.06C91.61 152.15 115.34 128 147 128s55.39 24.77 53 57.94"/><path fill="none" stroke="#F6B7A5" stroke-linecap="round" stroke-miterlimit="10" stroke-width="32" d="M206 306c-18.05-8.27-37.93-11.45-59-11.45c-52 0-102.1 25.85-114.65 76.2c-1.65 6.66 2.53 13.25 9.37 13.25H154"/></svg>
+          </FeatureItem>
+          <FeatureItem title="纪念提醒" subtitle="避免遗忘疏忽" src="https://lp-file.lifepage.cc/img/feature2-2.png">
+            <svg xmlns="http://www.w3.org/2000/svg" width="3rem" height="3rem" viewBox="0 0 24 24"><path fill="#F6B7A5" d="M7.185 12.75a.8.8 0 0 1 .8-.8h.01a.8.8 0 0 1 0 1.6h-.01a.8.8 0 0 1-.8-.8m.8 3.2a.8.8 0 0 0 0 1.6h.01a.8.8 0 0 0 0-1.6zm3.21-3.2a.8.8 0 0 1 .8-.8h.01a.8.8 0 0 1 0 1.6h-.01a.8.8 0 0 1-.8-.8m.8 3.2a.8.8 0 0 0 0 1.6h.01a.8.8 0 0 0 0-1.6zm3.21-3.2a.8.8 0 0 1 .8-.8h.01a.8.8 0 0 1 0 1.6h-.01a.8.8 0 0 1-.8-.8m.8 3.2a.8.8 0 0 0 0 1.6h.01a.8.8 0 0 0 0-1.6z"/><path fill="#F6B7A5" d="M8.75 2.75a.75.75 0 0 0-1.5 0v1H5.5A2.25 2.25 0 0 0 3.25 6v13a2.25 2.25 0 0 0 2.25 2.25h13A2.25 2.25 0 0 0 20.75 19V6a2.25 2.25 0 0 0-2.25-2.25h-1.75v-1a.75.75 0 0 0-1.5 0v1h-6.5zm10.5 5.5H4.75V6a.75.75 0 0 1 .75-.75h13a.75.75 0 0 1 .75.75zm-14.5 1.5h14.5V19a.75.75 0 0 1-.75.75h-13a.75.75 0 0 1-.75-.75z"/></svg>
+          </FeatureItem>
+        </div>
+      </div>
+    </div>
+  </div>
+</template>
+<script setup lang="ts">
+import FeatureItem from './FeatureItem.vue';
+</script>
+<style scoped lang="scss"></style>

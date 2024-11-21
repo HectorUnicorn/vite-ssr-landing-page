@@ -1,0 +1,37 @@
+{
+  "name": "vite-vue-typescript-starter",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node server",
+    "build": "npm run build:client && npm run build:server",
+    "build:client": "vite build --ssrManifest --outDir dist/client",
+    "build:server": "vite build --ssr src/entry-server.ts --outDir dist/server",
+    "preview": "cross-env NODE_ENV=production node server",
+    "check": "vue-tsc"
+  },
+  "dependencies": {
+    "@unocss/reset": "^0.64.1",
+    "axios": "^1.7.7",
+    "compression": "^1.7.4",
+    "express": "^5.0.1",
+    "sass": "^1.81.0",
+    "sirv": "^3.0.0",
+    "vue": "^3.5.12"
+  },
+  "devDependencies": {
+    "@iconify-json/solar": "^1.2.1",
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.7.7",
+    "@unhead/vue": "^1.11.11",
+    "@vitejs/plugin-vue": "^5.1.4",
+    "cross-env": "^7.0.3",
+    "sass-embedded": "^1.81.0",
+    "typescript": "~5.6.3",
+    "unocss": "^0.64.1",
+    "vite": "^5.4.11",
+    "vue-router": "^4.4.5",
+    "vue-tsc": "^2.1.6"
+  }
+}
