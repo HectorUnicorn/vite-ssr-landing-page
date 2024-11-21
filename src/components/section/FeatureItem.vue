@@ -7,7 +7,7 @@
         <span mt-0.6>{{ subtitle }}</span>
       </h3>
     </div>
-    <img class="w-11/12 md:w-8/12" :src="src" />
+    <img class="w-11/12 md:w-8/12" :src="src" rounded-2xl overflow-hidden/>
   </div>
 </template>
 <script setup lang="ts">
