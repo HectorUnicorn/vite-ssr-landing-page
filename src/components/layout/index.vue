@@ -2,7 +2,7 @@
 import { menuShow } from "../../store/index";
 </script>
 <template>
-  <div relative w-full h-full flex="~ col">
+  <div relative w-full h-full flex="~ col" :class="{ 'overflow-hidden': menuShow } ">
     <div w-full fixed z-1 top-0 left-0 right-0>
       <slot name="header"></slot>
     </div>
@@ -32,12 +32,13 @@ import { menuShow } from "../../store/index";
   </div>
 </template>
 <style scoped>
-.fade-enter-active,
-.fade-leave-active {
-  transition: opacity 0.8s;
+.fade-enter-active, .fade-leave-active {
+  transition: opacity 0.5s;
 }
-
-.fade-enter, .fade-leave-to /* .fade-leave-active in <2.1.8 */ {
+.fade-enter-from, .fade-leave-to {
   opacity: 0;
+}
+.fade-enter-to, .fade-leave-from {
+  opacity: 1;
 }
 </style>
