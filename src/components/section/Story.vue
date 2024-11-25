@@ -80,7 +80,7 @@ onMounted(() => {
             >老母亲脑瘤急症去世了，很突然。老人已经86岁了，虽然我们也准备着这一天，但当事情发生，悲伤还是超出了我的预期。我是小儿子，大学毕业就离家去外地工作，这30年，除了妈妈偶尔小住，每年只有春节和国庆能和老妈妈团聚。无以言状，只能诚心为她建一个纪念网站，保存音容笑貌，以寄托哀思。</span
           >
           <div mt-6 flex="~ row" justify-start items-center>
-            <img w-6 h-6 src="https://lp-file.lifepage.cc/img/avatar4.png" />
+            <img w-6 h-6 src="https://lp-file.lifepage.cc/img/avatar4.png" alt="成先生头像" />
             <div text-gray-500 text-xs ml-2>成先生</div>
             <div text-gray-300 text-3 ml-1>(小儿子)</div>
           </div>
@@ -99,7 +99,7 @@ onMounted(() => {
             >在姥姥去世的时候，我用”人生一页“这个工具和长辈一起发起了网络纪念。亲友留下很多吊唁。我也在上面记下了小时候在姥姥家发生的趣事，她给我做的各种小吃，给我买的每一个生日蛋糕... 每逢佳节，这里寄托着我们的思念。</span
           >
           <div mt-6 flex="~ row" justify-start items-center>
-            <img w-6 h-6 src="https://lp-file.lifepage.cc/img/avatar1-2.png" />
+            <img w-6 h-6 src="https://lp-file.lifepage.cc/img/avatar1-2.png"  alt="李景念头像"/>
             <div text-gray-500 text-xs ml-2>李景念</div>
             <div text-gray-300 text-3 ml-1>(外孙女)</div>
           </div>
@@ -119,7 +119,7 @@ onMounted(() => {
             >父亲是得癌症去世的，从第一次住院到离世，短短的10个月时间。10个月之后，他葬在了村子西边庄稼地旁的祖坟里，一副棺材，一抔黄土。那一刻我知道，父亲走了…我成了“孤儿”。吹吹打打的仪式完成了，但是父亲生前的往事却时时涌来。师弟推荐了人生一页这个网站，留存着父亲给我的40多年爱和回忆。</span
           >
           <div mt-6 flex="~ row" justify-start items-center>
-            <img w-6 h-6 src="https://lp-file.lifepage.cc/img/avatar1-1.png" />
+            <img w-6 h-6 src="https://lp-file.lifepage.cc/img/avatar1-1.png" alt="王先生头像" />
             <div text-gray-500 text-xs ml-2>王先生</div>
             <div text-gray-300 text-3 ml-1>(儿子)</div>
           </div>
@@ -139,7 +139,7 @@ onMounted(() => {
             >前年，我的小学同学身体不适，去医院检查途中猝死了，生命定格在了34岁。他是一个开心果，一个月前他还兴奋的跟我聊着筹备婚礼的事情。噩耗传来后，同学们很想去吊唁或者找到纪念他的方式，但因为疫情的原因，我们没能参加他的葬礼。直到最近我发现了“人生一页”这个平台，我们为他建立了纪念馆，让大家永远记住他曾经带给我们的欢乐。</span
           >
           <div mt-6 flex="~ row" justify-start items-center>
-            <img w-6 h-6 src="https://lp-file.lifepage.cc/img/avatar3.png" />
+            <img w-6 h-6 src="https://lp-file.lifepage.cc/img/avatar3.png" alt="黄耀婷头像" />
             <div text-gray-500 text-xs ml-2>黄耀婷</div>
             <div text-gray-300 text-3 ml-1>(同学)</div>
           </div>
